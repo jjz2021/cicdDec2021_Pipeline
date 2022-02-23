@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git SCM ') {
       steps {
-        git(url: 'https://github.com/jjz2021/cicdDec2021_Pipeline.git', branch: 'main', changelog: true, poll: true)
+        git(url: 'https://github.com/jjz2021/cicdMavenJunit.git', branch: 'main', changelog: true, poll: true)
         sleep 3
       }
     }
